@@ -8,19 +8,19 @@ Web application it could be used as template as well
 ## Techniques used for building 
 
 ```
-$ Nodejs
+ Nodejs and Java Script 
 ```
 
 ```
-$ Polymer
+ Polymer and related techniques
 ```
 
 ```
-$ HTML
+ HTML and related techniques
 ```
 
 ```
-$ CSS
+ CSS and related techniques
 ```
 
 ### Installation
@@ -37,7 +37,8 @@ Download  [Node.js](https://nodejs.org/)  to run.
   - Easy to use and install directly from the GitHub depositors 
 
 ### Structure
-``` ruby
+
+```ruby
 web-app/
 +-- app
     +-- core
@@ -48,11 +49,11 @@ web-app/
     ¦   +-- .bowerrc
     ¦   +-- bower.json
     +-- media
-+-- WWW
++-- www
 +-- .gitignore
 +-- vscode
 +-- package.json
-+-- READ.md
++-- readme.md
 
 ```
 
@@ -62,11 +63,15 @@ but, `bower.json` in the assets folder
 ## Browse and Run
 
 ```
-$ open terminal and type "polymer serve"
+$ open terminal and type "npm install"
 ```
 
 ```
-$open: http://localhost:8080/
+$ DEBUG=true npm run gulp
+```
+
+```
+open: http://localhost:8080/
 ```
 
 ### contributors
