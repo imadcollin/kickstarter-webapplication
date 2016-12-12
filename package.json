@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "ape": "ape",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/apegroup/apegroup-kickstarter-webapplication/issues"
   },
-  "homepage": "https://github.com/apegroup/apegroup-kickstarter-webapplication#readme"
+  "homepage": "https://github.com/apegroup/apegroup-kickstarter-webapplication#readme",
+  "dependencies": {
+    "apegroup-cli": "^1.0.0-alpha.59"
+  }
 }
