@@ -81,3 +81,12 @@ jspm_packages
 assets/libs
 !.bowerrc
 !bower.json
+
+
+# --------------------------------------------------
+# Polymer resources 
+# --------------------------------------------------
+#
+#
+# 
+bower_components
