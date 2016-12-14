@@ -72,6 +72,71 @@ web-app/
 +-- readme.md
 
 ```
+### Alternative structure
+
+```ruby
+web-app/
++-- app
+    +-- core
+        +-- x-component.js
+        +-- x-component.html
+        +-- x-stages.js
+        +-- x-stages.html
+    +-- shared
+        +-- debug 
+            +-- x-debug.html
+        +-- config
+            +-- x-config.js        //where  dev.js && prod.js && stage  are in one file     
+        +-- loader
+            +-- x-loader.html
+        +-- analytics
+            +-- x-analytics.html 
+        +-- identifiers
+            +-- x-identifiers.html   //here all variables will be declared  
++-- assets
+    +-- font
+    +-- libs
+    ¦   +-- .bowerrc
+    ¦   +-- bower.json
+    +-- media
++-- www
++-- .gitignore
++-- vscode
++-- package.json
++-- readme.md
+
+```
+
+### Alternative structure (2) 
+
+```ruby
+web-app/
++-- app
+    +-- core
+        +-- x-component.js
+        +-- x-component.html
+        +-- x-stages.js
+        +-- x-stages.html
+    +-- shared
+        +-- x-debug.html    
+        +-- x-loader.html
+        +-- x-analytics.html 
+        +-- x-config.js          //where  dev.js && prod.js && stage  are in one file
+        +-- x-contents.js        //where all shared attrbuites,preoperties and elements
+        +-- x-identifiers.html   //here all variables will be declared  
++-- assets
+    +-- font
+    +-- libs
+    ¦   +-- .bowerrc
+    ¦   +-- bower.json
+    +-- media
++-- www
++-- .gitignore
++-- vscode
++-- package.json
++-- readme.md
+
+```
 
 Please notice that `package.json` and `defualt.yml` are included in the root
 but, `bower.json` in the assets folder  
