@@ -43,14 +43,15 @@ web-app/
 +-- app
     +-- core
     +-- shared
-        +-- analytics
-            +-- x-analytics.html
         +-- debug 
             +-- x-debug.html
-        +-- identifiers
-            +-- x-identifiers.html
         +-- loader
             +-- x-loader.html
+        +-- analytics
+            +-- x-analytics.html
+        +-- identifiers
+            +-- x-identifiers.html
+            
 +-- assets
     +-- font
     +-- libs
