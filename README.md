@@ -169,5 +169,5 @@ License
 
 MIT
 
-## Made by 
+
 # [![Ape|group](http://www.allabolag.se/absales_images/5568858384.png)](https://apegroup.se)
