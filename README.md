@@ -32,9 +32,9 @@ Download  [Node.js](https://nodejs.org/)  to run.
 ### Features
 
   - Easy to modify and configure 
-  - Appropriate to a just with modern libraries such as Polymer or Angular 
+  - Appropriate to adjust with modern libraries such as Polymer or Angular 
   - The server is built with the modern techniques using Koa2 
-  - Easy to use and install directly from the GitHub depositors 
+  - Easy to use and install directly from the GitHub repositories 
 
 ### Structure
 
@@ -42,7 +42,23 @@ Download  [Node.js](https://nodejs.org/)  to run.
 web-app/
 +-- app
     +-- core
+        +-- x-component.js
+        +-- x-component.html
+        +-- x-stages.js
+        +-- x-stages.html
     +-- shared
+        +-- debug 
+            +-- x-debug.html
+        +-- config
+            +-- x-dev.js
+            +-- x-prod.js
+            +-- x-stage.js
+        +-- loader
+            +-- x-loader.html
+        +-- analytics
+            +-- x-analytics.html
+        +-- identifiers
+            +-- x-identifiers.html
 +-- assets
     +-- font
     +-- libs
@@ -88,5 +104,4 @@ License
 
 MIT
 
-## Made by 
 # [![Ape|group](http://www.allabolag.se/absales_images/5568858384.png)](https://apegroup.se)
