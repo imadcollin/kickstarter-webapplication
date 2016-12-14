@@ -44,13 +44,15 @@ web-app/
     +-- core
         +-- x-component.js
         +-- x-component.html
+        +-- x-stages.js
+        +-- x-stages.html
     +-- shared
         +-- debug 
             +-- x-debug.html
         +-- config
             +-- x-dev.js
-            +-- prod.js
-            +-- stage.js
+            +-- x-prod.js
+            +-- x-stage.js
         +-- loader
             +-- x-loader.html
         +-- analytics
