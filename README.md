@@ -42,16 +42,21 @@ Download  [Node.js](https://nodejs.org/)  to run.
 web-app/
 +-- app
     +-- core
+        +-- x-component.js
+        +-- x-component.html
     +-- shared
         +-- debug 
             +-- x-debug.html
+        +-- config
+            +-- x-dev.js
+            +-- prod.js
+            +-- stage.js
         +-- loader
             +-- x-loader.html
         +-- analytics
             +-- x-analytics.html
         +-- identifiers
             +-- x-identifiers.html
-            
 +-- assets
     +-- font
     +-- libs
